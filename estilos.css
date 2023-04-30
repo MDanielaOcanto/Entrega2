@@ -1,0 +1,90 @@
+
+:root {
+    /* colors */
+    --black: #040403ff;
+    --baby-powder: #fffcf9ff;
+    --azure: #0082f3ff;
+    --turquoise: #00cec0ff;
+    --battleship-gray: #959595ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type:none;
+}
+
+header {
+    background: rgb(234, 234, 234);
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    height: 13%;
+    padding: 1%;
+}
+
+.logo {
+    height: 220%;
+    width: 10%;
+    padding: 0%;
+    margin: 0;
+    position: relative;
+    bottom: 35px;
+    right: 80px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navbar-list a {
+    color: var(--azure);
+    font-size: 15px;
+    font-family: monospace;
+    font: weight 500px;
+    word-spacing: 20%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 1px solid var(--battleship-gray);
+    padding: 8px;
+}
+
+.navbar-list li:first-child > a {
+    color: var(--azure);
+    font-weight: 900;
+}
+
+.tituloysub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 210px;
+}
+
+.titulo { 
+    color: #0082f3ff;
+    font-size: 30px;
+    font-family: 'Fredericka the Great', cursiva;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+.subtitulo {
+    color: var(--black);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 500;
+}
